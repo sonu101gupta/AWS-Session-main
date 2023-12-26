@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://js.stripe.com/v3/"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"/>
+    <link rel="icon" type="image/x-icon" href="assets/icon.svg" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a class="nav-content" href="#" target="_blank">
+        <img src="assets/logo.svg" alt="" height="60" width="350" />
+      </a>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <div class="title">
+          <h1>Welcome to DevOpsAcademia Workshops! </h1>
+        </div>
+        <p>
+          DevOpsAcademia is on a mission to simplify the cloud-native for everyone. <br>
+          Various initiatives such as Blogs, Twitter Threads, Twitter Spaces, etc. have been started by us, all to <b>demystify</b> complex cloud-native concepts and make them simple for anyone to understand. <br><br>
+          We welcome you to yet another initiative on that path - <b>"Live Workshops"</b>
+          <br><br>
+          DevOpsAcademia is bringing 3<b>"Live Workshops"</b> for you to learn all the fundamentals of cloud computing. Focusing on DevOps, each session will be fully hands-on, containing one project.
+
+          <br><br>
+          <center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Id7ur1gVE6I?si=PPl51Jht6m3mm8U7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+          </center>
+        </p>
+      </div>
+
+      <!-- Workshop Cards -->
+      <div class="wrapper-flex">
+        <div class="speaker-container">
+          <img src="assets/price-tag.png" id="price-tag" />
+          <div id="price">FREE</div>
+          <div class="banner-img"></div>
+          <img
+            src="assets/Speaker_Imgs/profile-pic.png"
+            alt="profile image"
+            class="profile-img"
+          />
+          <h1 class="name">Virtual Instances</h1>
+          <div class="description">
+            <div class="timings">
+              <p><i class="bi bi-calendar-fill"></i>Dec 28th, 2023</p>
+              <p><i class="bi bi-clock-fill"></i>06:00 PM </p>
+            </div>
+            Geared towards establishing a robust foundation in Virtual Instances and Virtualization, this workshop covers VM fundamentals, containers, and Docker Basics. <br>
+          </div>
+          <button class="btn" id="work-1">Register Now</button>
+        </div>
+        <div class="speaker-container">
+          <img src="assets/price-tag.png" id="price-tag" />
+          <div id="price">FREE</div>
+          <div class="banner-img"></div>
+          <img
+            src="assets/Speaker_Imgs/profile-pic.png"
+            alt="profile image"
+            class="profile-img"
+          />
+          <h1 class="name">Docker & Containers</h1>
+          <div class="description">
+            <div class="timings">
+              <p><i class="bi bi-calendar-fill"></i>Jan TBA, 2024</p>
+              <p><i class="bi bi-clock-fill"></i>TBA PM </p>
+            </div>
+            Centered on providing a deeper understanding of Containers, particularly highlighting Docker volumes and the intricacies of Docker networking.
+          </div>
+          <button class="btn" id="work-2">Register Now</button>
+        </div>
+        <div class="speaker-container">
+          <img src="assets/price-tag.png" id="price-tag" />
+          <div id="price">FREE</div>
+          <div class="banner-img"></div>
+          <img
+            src="assets/Speaker_Imgs/1674463753425.jpg"
+            alt="profile image"
+            class="profile-img"
+          />
+          <h1 class="name">Kubernetes</h1>
+          <div class="description">
+            <div class="timings">
+              <p><i class="bi bi-calendar-fill"></i>Jan TBA, 2024</p>
+              <p><i class="bi bi-clock-fill"></i>TBA PM</p>
+            </div>
+            This workshop emphasizes Kubernetes fundamentals, application deployment using Kubernetes, as well as aspects of monitoring and security within the Kubernetes ecosystem.
+          </div>
+          <button class="btn" id="work-3">Register Now</button>
+        </div>
+
+    <!-- Client-side Js -->
+    <script src="app.js"></script>
+  </body>
+</html>
